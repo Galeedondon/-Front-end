@@ -11,4 +11,4 @@
 >因此，網頁前端跟後端的關係，其實就像是餐廳點餐跟出餐一樣。前者接受使用者的指令並呈現網頁內容，後者則處理使用者的指令並提供內容。
 
 >舉一個實際的例子，就像你現在所讀 Medium 頁面上的留言制度，如果你在這篇文章底下留言，你留的內容就會從前端被丟給後端做管理，後端語言會把你是誰、什麼時間留的、留的內容管理好，等下次重新載入網頁時，把這些資訊再送給前端呈現。
-![擷取https://medium.com/appworks-school/%E7%B6%B2%E9%A0%81%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80-%E5%88%9D%E6%8E%A2%E7%B6%B2%E9%A0%81%E6%9E%B6%E6%A7%8B%E5%92%8C%E5%89%8D%E5%BE%8C%E7%AB%AF%E8%AA%9E%E8%A8%80-a88a5dc86ee3](https://cdn-images-1.medium.com/max/1000/1*DMLL29PVpc2xBW3Aeq-RIg.jpeg)
+[擷取網頁新手入門-初探網頁架構和前後端語言]: https://cdn-images-1.medium.com/max/1000/1*DMLL29PVpc2xBW3Aeq-RIg.jpeg  "我是圖片"
