@@ -26,9 +26,9 @@
 >
 >嚴格來說，JavaScript 才是寫網頁需要的第一個程式語言。JS 可以用來處理網站上需要邏輯判斷的功能，像是隨著使用者的行為動態載入網頁的不同內容。
 >
-* [範例網站-1](https://www.wix.com/website-template/view/html/1733?siteId=d68a8fe9-c5db-4d3c-8c32-49f2b045254a&metaSiteId=fc9c78cf-aa67-4669-9224-ffbc4e23d5b7&originUrl=https%3A%2F%2Fzh.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fonline-store)
-* [範例網站-2](https://www.apple.com/tw/)
-* [範例網站-3](http://www.bestjquery.com/?gCZVK10o)
+* [範例網站-Wix](https://www.wix.com/website-template/view/html/1733?siteId=d68a8fe9-c5db-4d3c-8c32-49f2b045254a&metaSiteId=fc9c78cf-aa67-4669-9224-ffbc4e23d5b7&originUrl=https%3A%2F%2Fzh.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fonline-store)
+* [參考網站-Apple](https://www.apple.com/tw/)
+* [參考網站-Game](http://www.bestjquery.com/?gCZVK10o)
 >
 # 使用工具
 >[Visual Studio Code](https://code.visualstudio.com/)
