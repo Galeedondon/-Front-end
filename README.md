@@ -34,9 +34,9 @@
 >[Visual Studio Code](https://code.visualstudio.com/)
 
 # 線上工具
->[W3c](https://www.w3schools.com/)
->[Jquery](https://jquery.com/)
->[bootstrap4](https://getbootstrap.com/)
+* [W3c](https://www.w3schools.com/)
+* [Jquery](https://jquery.com/)
+* [bootstrap4](https://getbootstrap.com/)
 ## Reference
 *  https://medium.com/appworks-school/%E7%B6%B2%E9%A0%81%E6%96%B0%E6%89%8B%E5%85%A5%E9%96%80%E5%88%9D%E6%8E%A2%E7%B6%B2%E9%A0%81%E6%9E%B6%E6%A7%8B%E5%92%8C%E5%89%8D%E5%BE%8C%E7%AB%AF%E8%AA%9E%E8%A8%80-a88a5dc86ee3
 * https://ithelp.ithome.com.tw/articles/10207036
