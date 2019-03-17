@@ -10,7 +10,7 @@
 >
 >  &lt;body&gt;  敘述該元素包含可見的頁面內容
 >
->  HTML標題使用 &lt;H1&gt;  到 &lt;H6&gt;  \*(Heading)\* 標籤定義 ***由大到小***
+>  HTML標題使用 &lt;H1&gt;  到 &lt;H6&gt;  \* (Heading) \* 標籤定義 ***由大到小***
 >  &lt;h1&gt;  等於24px \*(pixel)\*
 >     
 >  &lt;h1&gt; This is heading used 24px&lt;/h1&gt; 
