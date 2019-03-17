@@ -1,5 +1,5 @@
 # Html 語法基礎說明
-\* \* \*
+***
 > &lt;!DOCTYPE html&gt;  定義文件為HTML5
 >
 > &lt;html&gt;  敘述該元件是一個HTML頁面的根元素
