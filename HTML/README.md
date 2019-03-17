@@ -11,20 +11,31 @@
 >  &lt;body&gt;  敘述該元素包含可見的頁面內容
 >
 >  HTML標題使用 &lt;H1&gt;  到 &lt;H6&gt;  *Heading* 標籤定義 ***由大到小***
->>  &lt;h1&gt;  等於24px**(pixel)**      
->>  &lt;h1&gt; This is heading used 24px&lt;/h1&gt; 
->>  &lt;h2&gt;  等於22px *(pixel)*      
->>  &lt;h2&gt; This is heading used 22px&lt;/h2&gt; 
->>  &lt;h3&gt;  等於18px*(pixel)*      
->>  &lt;h3&gt; This is heading used 18px&lt;/h3&gt; 
->>  &lt;h4&gt;  等於16px*(pixel)*      
->>  &lt;h4&gt; This is heading used 16px&lt;/h4&gt; 
->>  &lt;h5&gt;  等於12px*(pixel)*     
->>  &lt;h5&gt; This is heading used 12px&lt;/h5&gt; 
->>  &lt;h6&gt;  等於10px*(pixel)*
->>  &lt;h6&gt; This is heading used 10px&lt;/h6&gt; 
+>  &lt;h1&gt;  等於24px *(pixel)* 
+>     
+>  &lt;h1&gt; This is heading used 24px&lt;/h1&gt; 
+>
+>  &lt;h2&gt;  等於22px *(pixel)*      
+>
+>  &lt;h2&gt; This is heading used 22px&lt;/h2&gt; 
+>
+>  &lt;h3&gt;  等於18px *(pixel)*      
+>
+>  &lt;h3&gt; This is heading used 18px&lt;/h3&gt; 
+>
+>  &lt;h4&gt;  等於16px *(pixel)*      
+>
+>  &lt;h4&gt; This is heading used 16px&lt;/h4&gt;
 > 
->  HTML段落使用 &lt;p&gt;  *(paragraph)* 標籤定義
+>  &lt;h5&gt;  等於12px *(pixel)*     
+>
+>  &lt;h5&gt; This is heading used 12px&lt;/h5&gt;
+> 
+>  &lt;h6&gt;  等於10px *(pixel)*
+>
+>  &lt;h6&gt; This is heading used 10px&lt;/h6&gt; 
+> 
+>  HTML段落使用 &lt;p&gt; *(paragraph)* 標籤定義
 >>  新增顏色屬性*(color)*
 >>  &lt;p style="color:red"&gt; Red text&lt;/p&gt;  or &lt;p style="color:#FF0000"&gt; Red text&lt;/p&gt;  or &lt;p style="color:rgb(255,0,0)"&gt; Red text&lt;/p&gt;  or &lt;p style="color:rgba(255,0,0,1)"&gt; Red text&lt;/p&gt; 
 >>  新增標題文字*(title)*
