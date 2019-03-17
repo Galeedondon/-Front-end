@@ -13,7 +13,7 @@
 >  HTML標題使用 &lt;H1&gt;  到 &lt;H6&gt;  *Heading* 標籤定義 ***由大到小***
 >>  &lt;h1&gt;  等於24px**(pixel)**      
 >>  &lt;h1&gt; This is heading used 24px&lt;/h1&gt; 
->>  &lt;h2&gt;  等於22px*(pixel)*      
+>>  &lt;h2&gt;  等於22px *(pixel)*      
 >>  &lt;h2&gt; This is heading used 22px&lt;/h2&gt; 
 >>  &lt;h3&gt;  等於18px*(pixel)*      
 >>  &lt;h3&gt; This is heading used 18px&lt;/h3&gt; 
