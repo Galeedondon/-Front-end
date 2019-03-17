@@ -1,93 +1,93 @@
 # Html 語法基礎說明
-> <!DOCTYPE html> 定義文件為HTML5
-> <html> 敘述該元件是一個HTML頁面的根元素
-> <head> 敘述該元素包含有關文檔的元信息
-> <title> 敘述該元素指定該文檔的標題
-> <body> 敘述該元素包含可見的頁面內容
+&gt;  &lt;!DOCTYPE html&gt;  定義文件為HTML5
+&gt;  &lt;html&gt;  敘述該元件是一個HTML頁面的根元素
+&gt;  &lt;head&gt;  敘述該元素包含有關文檔的元信息
+&gt;  &lt;title&gt;  敘述該元素指定該文檔的標題
+&gt;  &lt;body&gt;  敘述該元素包含可見的頁面內容
 * * *
-> HTML標題使用 <H1> 到 <H6> *Heading* 標籤定義 ***由大到小***
->> <h1> 等於24px*(pixel)*      
->> <h1>This is heading used 24px</h1>
->> <h2> 等於22px*(pixel)*      
->> <h2>This is heading used 22px</h2>
->> <h3> 等於18px*(pixel)*      
->> <h3>This is heading used 18px</h3>
->> <h4> 等於16px*(pixel)*      
->> <h4>This is heading used 16px</h4>
->> <h5> 等於12px*(pixel)*     
->> <h5>This is heading used 12px</h5>
->> <h6> 等於10px*(pixel)*
->> <h6>This is heading used 10px</h6>
->
-> HTML段落使用 <p> *(paragraph)* 標籤定義
->> 新增顏色屬性*(color)*
->> <p style="color:red">Red text</p> or <p style="color:#FF0000">Red text</p> or <p style="color:rgb(255,0,0)">Red text</p> or <p style="color:rgba(255,0,0,1)">Red text</p>
->> 新增標題文字*(title)*
->> <p title="指我會冒出來">This is a paragraph.</p>
->> 改變文字對齊*(text-aligh)* 樣式*(style)* ***置左 left , 置中 center , 置右 right***
->> <p style="text-align:left;">Left paragraph.</p>
->> <p style="text-align:center;">Center paragraph.</p>
->> <p style="text-align:right;">Right paragraph.</p>
->> 改變文字字體*(font-family)* 樣式*(style)* ***其他字體需要可自行上網查詢***
->> <p style="font-family:courier;">This is a paragraph.</p>
->> 
-> HTML格式化文本使用<pre>標籤定義
->
-> HTML文字使用<a>標籤定義
->> 新增超連結屬性*(herf)* 
->> <a href="連結網址">This is a link</a> or <a href='連結網址'>This is a link</a>
->> 改變文字大小 *(font-size)* 樣式 *(Style)*
->> <a style="font-size:60px"> or <a style="font-size:2.5rem">
->> 新增背景顏色*(color))*樣式 *(style)*
->> <a style="background-color:DodgerBlue;"> 
->>
-> HTML圖片使用<img>*(image)*標籤定義
->> 新增代替本文屬性*(alt)*與長*(height)*寬*(width)*屬性
->> <img src="圖片網址" alt="文字代替圖片" width="100" height="200"> or <img src='圖片網址' alt='文字代替圖片' width='100' height='200'>
->>
-> HTML按鈕使用<button>標籤定義
->> 新增禁用屬性*(disabled)*
->> <button disabled>按鈕文字</button> 
->>
-> HTML列表使用<ul> （無序/項目符號列表）或<ol>（有序/編號列表）標記定義，後跟<li> 標記（列表項）
->> <ul>                             <ol>
->>      <li>文字一</Li>                  <li>文字一</Li>
->>      <Li>文字二</Li>      or          <Li>文字二</Li>
->>      <Li>文字三</Li>                  <Li>文字三</Li>
->> </ul>                            </ol>
->>
-> HTML換行使用<br>標籤定義
->
-> HTML水平線使用<hr>*(Horizontal)*標籤定義
->
-> HTML粗體使用<b>*(Bold)*標籤定義
->
-> HTML重要文字使用<strong>標籤定義*消果跟<b>標籤效果差不多*
->
-> HTML斜體文字使用<i>*(Italic)*標籤定義
->
-> HTML強調文字使用<em>標籤定義*效果跟<i>標籤效果差不多*
->
-> HTML標記文字使用<mark>標籤定義
->
-> HTML刪除文字使用<del>標籤定義
->
-> HTML插入文字使用<ins>標籤定義 *(baseline)*
->
-> HTML下標文字使用<sub>標籤定義
->
-> HTML上標文字使用<sup>標籤定義
->
-> HTML縮小文字使用<small>標籤定義
->
-> HTML短引號使用<q>標籤定義
->> <q>123</q> or 直接輸入 "123" *(個人推薦直接使用雙引號)*
->>
-> HTML引用使用<blockquote>標籤定義
->> <blockquote city="引用網址">引用文字</blockquote>
->>
-> HTML地址使用<address>標籤定義，元件通常顯示斜體
->> 個人不太使用此標籤，如果要達到斜體效果通常使用
->> <i>標籤 or <a style="font-style:italic">文字</a>
->>
->圖片位址 https://www.image-map.net/
+&gt;  HTML標題使用 &lt;H1&gt;  到 &lt;H6&gt;  *Heading* 標籤定義 ***由大到小***
+&gt; &gt;  &lt;h1&gt;  等於24px*(pixel)*      
+&gt; &gt;  &lt;h1&gt; This is heading used 24px&lt;/h1&gt; 
+&gt; &gt;  &lt;h2&gt;  等於22px*(pixel)*      
+&gt; &gt;  &lt;h2&gt; This is heading used 22px&lt;/h2&gt; 
+&gt; &gt;  &lt;h3&gt;  等於18px*(pixel)*      
+&gt; &gt;  &lt;h3&gt; This is heading used 18px&lt;/h3&gt; 
+&gt; &gt;  &lt;h4&gt;  等於16px*(pixel)*      
+&gt; &gt;  &lt;h4&gt; This is heading used 16px&lt;/h4&gt; 
+&gt; &gt;  &lt;h5&gt;  等於12px*(pixel)*     
+&gt; &gt;  &lt;h5&gt; This is heading used 12px&lt;/h5&gt; 
+&gt; &gt;  &lt;h6&gt;  等於10px*(pixel)*
+&gt; &gt;  &lt;h6&gt; This is heading used 10px&lt;/h6&gt; 
+&gt; 
+&gt;  HTML段落使用 &lt;p&gt;  *(paragraph)* 標籤定義
+&gt; &gt;  新增顏色屬性*(color)*
+&gt; &gt;  &lt;p style="color:red"&gt; Red text&lt;/p&gt;  or &lt;p style="color:#FF0000"&gt; Red text&lt;/p&gt;  or &lt;p style="color:rgb(255,0,0)"&gt; Red text&lt;/p&gt;  or &lt;p style="color:rgba(255,0,0,1)"&gt; Red text&lt;/p&gt; 
+&gt; &gt;  新增標題文字*(title)*
+&gt; &gt;  &lt;p title="指我會冒出來"&gt; This is a paragraph.&lt;/p&gt; 
+&gt; &gt;  改變文字對齊*(text-aligh)* 樣式*(style)* ***置左 left , 置中 center , 置右 right***
+&gt; &gt;  &lt;p style="text-align:left;"&gt; Left paragraph.&lt;/p&gt; 
+&gt; &gt;  &lt;p style="text-align:center;"&gt; Center paragraph.&lt;/p&gt; 
+&gt; &gt;  &lt;p style="text-align:right;"&gt; Right paragraph.&lt;/p&gt; 
+&gt; &gt;  改變文字字體*(font-family)* 樣式*(style)* ***其他字體需要可自行上網查詢***
+&gt; &gt;  &lt;p style="font-family:courier;"&gt; This is a paragraph.&lt;/p&gt; 
+&gt; &gt;  
+&gt;  HTML格式化文本使用&lt;pre&gt; 標籤定義
+&gt; 
+&gt;  HTML文字使用&lt;a&gt; 標籤定義
+&gt; &gt;  新增超連結屬性*(herf)* 
+&gt; &gt;  &lt;a href="連結網址"&gt; This is a link&lt;/a&gt;  or &lt;a href='連結網址'&gt; This is a link&lt;/a&gt; 
+&gt; &gt;  改變文字大小 *(font-size)* 樣式 *(Style)*
+&gt; &gt;  &lt;a style="font-size:60px"&gt;  or &lt;a style="font-size:2.5rem"&gt; 
+&gt; &gt;  新增背景顏色*(color))*樣式 *(style)*
+&gt; &gt;  &lt;a style="background-color:DodgerBlue;"&gt;  
+&gt; &gt; 
+&gt;  HTML圖片使用&lt;img&gt; *(image)*標籤定義
+&gt; &gt;  新增代替本文屬性*(alt)*與長*(height)*寬*(width)*屬性
+&gt; &gt;  &lt;img src="圖片網址" alt="文字代替圖片" width="100" height="200"&gt;  or &lt;img src='圖片網址' alt='文字代替圖片' width='100' height='200'&gt; 
+&gt; &gt; 
+&gt;  HTML按鈕使用&lt;button&gt; 標籤定義
+&gt; &gt;  新增禁用屬性*(disabled)*
+&gt; &gt;  &lt;button disabled&gt; 按鈕文字&lt;/button&gt;  
+&gt; &gt; 
+&gt;  HTML列表使用&lt;ul&gt;  （無序/項目符號列表）或&lt;ol&gt; （有序/編號列表）標記定義，後跟&lt;li&gt;  標記（列表項）
+&gt; &gt;  &lt;ul&gt;                              &lt;ol&gt; 
+&gt; &gt;       &lt;li&gt; 文字一&lt;/Li&gt;                   &lt;li&gt; 文字一&lt;/Li&gt; 
+&gt; &gt;       &lt;Li&gt; 文字二&lt;/Li&gt;       or          &lt;Li&gt; 文字二&lt;/Li&gt; 
+&gt; &gt;       &lt;Li&gt; 文字三&lt;/Li&gt;                   &lt;Li&gt; 文字三&lt;/Li&gt; 
+&gt; &gt;  &lt;/ul&gt;                             &lt;/ol&gt; 
+&gt; &gt; 
+&gt;  HTML換行使用&lt;br&gt; 標籤定義
+&gt; 
+&gt;  HTML水平線使用&lt;hr&gt; *(Horizontal)*標籤定義
+&gt; 
+&gt;  HTML粗體使用&lt;b&gt; *(Bold)*標籤定義
+&gt; 
+&gt;  HTML重要文字使用&lt;strong&gt; 標籤定義*消果跟&lt;b&gt; 標籤效果差不多*
+&gt; 
+&gt;  HTML斜體文字使用&lt;i&gt; *(Italic)*標籤定義
+&gt; 
+&gt;  HTML強調文字使用&lt;em&gt; 標籤定義*效果跟&lt;i&gt; 標籤效果差不多*
+&gt; 
+&gt;  HTML標記文字使用&lt;mark&gt; 標籤定義
+&gt; 
+&gt;  HTML刪除文字使用&lt;del&gt; 標籤定義
+&gt; 
+&gt;  HTML插入文字使用&lt;ins&gt; 標籤定義 *(baseline)*
+&gt; 
+&gt;  HTML下標文字使用&lt;sub&gt; 標籤定義
+&gt; 
+&gt;  HTML上標文字使用&lt;sup&gt; 標籤定義
+&gt; 
+&gt;  HTML縮小文字使用&lt;small&gt; 標籤定義
+&gt; 
+&gt;  HTML短引號使用&lt;q&gt; 標籤定義
+&gt; &gt;  &lt;q&gt; 123&lt;/q&gt;  or 直接輸入 "123" *(個人推薦直接使用雙引號)*
+&gt; &gt; 
+&gt;  HTML引用使用&lt;blockquote&gt; 標籤定義
+&gt; &gt;  &lt;blockquote city="引用網址"&gt; 引用文字&lt;/blockquote&gt; 
+&gt; &gt; 
+&gt;  HTML地址使用&lt;address&gt; 標籤定義，元件通常顯示斜體
+&gt; &gt;  個人不太使用此標籤，如果要達到斜體效果通常使用
+&gt; &gt;  &lt;i&gt; 標籤 or &lt;a style="font-style:italic"&gt; 文字&lt;/a&gt; 
+&gt; &gt; 
+&gt; 圖片位址 https://www.image-map.net/
