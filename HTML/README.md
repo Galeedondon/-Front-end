@@ -53,7 +53,7 @@
 > 
 >  &lt;p style="text-align:right;"&gt; Right paragraph.&lt;/p&gt; 
 >
->  改變文字字體*(font-family)* 樣式*(style)* ***其他字體需要可自行上網查詢***
+>  改變文字字體 *(font-family)* 樣式 *(style)* ***其他字體需要可自行上網查詢***
 >
 >  &lt;p style="font-family:courier;"&gt; This is a paragraph.&lt;/p&gt; 
 >  
@@ -69,13 +69,13 @@
 >
 >  &lt;a style="font-size:60px"&gt;  or &lt;a style="font-size:2.5rem"&gt; 
 >
->  新增背景顏色 *(color)*樣式 *(style)*
+>  新增背景顏色 *(color)* 樣式 *(style)*
 >
 >  &lt;a style="background-color:DodgerBlue;"&gt;  
 > 
->  HTML圖片使用&lt;img&gt; *(image)*標籤定義
+>  HTML圖片使用&lt;img&gt; *(image)* 標籤定義
 >
->  新增代替本文屬性 *(alt)*與長 *(height)*寬 *(width)*屬性
+>  新增代替本文屬性 *(alt)* 與長 *(height)* 寬 *(width)* 屬性
 >
 >  &lt;img src="圖片網址" alt="文字代替圖片" width="100" height="200"&gt;  or &lt;img src='圖片網址' alt='文字代替圖片' width='100' height='200'&gt; 
 >
@@ -99,15 +99,15 @@
 > 
 >  HTML換行使用&lt;br&gt; 標籤定義
 > 
->  HTML水平線使用&lt;hr&gt; *(Horizontal)*標籤定義
+>  HTML水平線使用&lt;hr&gt; *(Horizontal)* 標籤定義
 > 
->  HTML粗體使用&lt;b&gt; *(Bold)*標籤定義
+>  HTML粗體使用&lt;b&gt; *(Bold)* 標籤定義
 > 
 >  HTML重要文字使用&lt;strong&gt; 標籤定義*消果跟&lt;b&gt; 標籤效果差不多*
 > 
->  HTML斜體文字使用&lt;i&gt; *(Italic)*標籤定義
+>  HTML斜體文字使用&lt;i&gt; *(Italic)* 標籤定義
 > 
->  HTML強調文字使用&lt;em&gt; 標籤定義*效果跟&lt;i&gt; 標籤效果差不多*
+>  HTML強調文字使用&lt;em&gt; 標籤定義 *效果跟&lt;i&gt; 標籤效果差不多*
 > 
 >  HTML標記文字使用&lt;mark&gt; 標籤定義
 > 
