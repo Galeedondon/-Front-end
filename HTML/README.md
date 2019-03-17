@@ -10,7 +10,7 @@
 >
 >  &lt;body&gt;  敘述該元素包含可見的頁面內容
 >
->  HTML標題使用 &lt;H1&gt;  到 &lt;H6&gt;  *Heading* 標籤定義 ***由大到小***
+>  HTML標題使用 &lt;H1&gt;  到 &lt;H6&gt;  *\(Heading\)* 標籤定義 ***由大到小***
 >  &lt;h1&gt;  等於24px *(pixel)* 
 >     
 >  &lt;h1&gt; This is heading used 24px&lt;/h1&gt; 
@@ -103,7 +103,7 @@
 > 
 >  HTML粗體使用&lt;b&gt; *(Bold)* 標籤定義
 > 
->  HTML重要文字使用&lt;strong&gt; 標籤定義*消果跟&lt;b&gt; 標籤效果差不多*
+>  HTML重要文字使用&lt;strong&gt; 標籤定義 *效果跟&lt;b&gt; 標籤效果差不多*
 > 
 >  HTML斜體文字使用&lt;i&gt; *(Italic)* 標籤定義
 > 
