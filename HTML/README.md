@@ -84,6 +84,7 @@
 
 # Style
 |屬性|中文|值|
+|-----------|:-------------|:-------------|
 |padding|內間距|px rem ***ex padding:20px;***|
 |text-align|文字對齊|left(置左)、center(置中)、right(置右)|
 |list-style-type|列標標記樣式，用於\<ul\>標籤|disc ***(列標顯示 •)***、circle ***(列標顯示 。)*** 、square ***(列表顯示 ▪)*** 、none ***(無列表顯示))***|
