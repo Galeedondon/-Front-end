@@ -46,7 +46,7 @@
 |\<select\>|下拉是選單，後跟 \<option\>，屬性size ***(顯示筆數)*** 、 multiple ***(多選)***|
 |\<textarea\>|多行文字，屬性rows ***(顯示行數)***、cols ***(每列字數)***|
 |\<datalist\>|數據列表，必須預先定義的選項的列表\<input\>元素，在list該屬性\<input\>元素，必須參照 id該屬性\<datalist\>的元素。[點我看範例](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_datalist)|
-|\<output\>|表示計算的結果 [點我看範例][https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output]|
+|\<output\>|表示計算的結果 [點我看範例](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output)|
 |\<canvas\>|畫布|
 |\<video\>|影片，後跟 \<source src="影片" type="副檔名"\>|
 |\<audio\>|音效，後跟 \<source src="音樂" type="副檔名"\>|
@@ -71,20 +71,8 @@
 |width|寬度|px %(百分比) ... ***ex width:100%***|
 |height|長度|px %(百分比) ... ***ex height:100%***|
 |float|浮動|right(置右)、left(置左) ***ex float:left***|
-|color|顏色|color name 、 rgb 、 rgba 、 hsl [色碼表](https://www.ifreesite.com/color/)|
-|background-color|背景顏色|color name 、 rgb 、 rgba 、 hsl [色碼表](https://www.ifreesite.com/color/)|
-|background-image|背景圖片|url("圖片位址/連結") ***ex background-image: url("picture.png")***|
-|border|邊寬|邊寬寬度、邊寬樣式、邊寬顏色 ***ex border: 1px solid black;***|
-|border-color|邊寬顏色|all or top right bottom left or top&bottom left&right ***ex border-color:blue; or border-color:blue yellow;*** |
-|border-width|邊寬寬度|px rem ... ***ex border-width:3px;***|
-|border-spacing|邊框間距|px rem ... ***ex border-spacing: 5px;***|
-|border-style|邊寬樣式|solid、dotted... [其他更多](https://www.w3schools.com/css/css_border.asp)|
-|border-collapse|標格邊框合併|separate(預設值)、collapse(單一邊框)、inherit(繼承自父層的 border-collapse 屬性值) ***key 通常使用border-style實現***|
-|padding|內間距|px rem ***ex padding:20px;***|
-|text-align|文字對齊|left(置左)、center(置中)、right(置右)|
 |colspan|列合併，用於\<th\>、\<td\>標籤| ***ex colspan="2" 合併兩列***|
 |rowspan|行合併，用於\<th\>、\<td\>標籤| ***ex rowspan="2" 合併兩行***|
-|list-style-type|列標標記樣式，用於\<ul\>標籤|disc ***(列標顯示 •)***、circle ***(列標顯示 。)*** 、square ***(列表顯示 ▪)*** 、none ***(無列表顯示))***|
 |type|定義列表項標記的類型|1 ***(從1開始以數列排序)*** 、A ***(從A開始以英文大寫字母排序)*** 、a***(從a開始以英文小寫字母排序)*** 、I ***(從大寫羅馬字母排序)*** 、i ***(從小寫羅馬字母排序)***|
 |start|指定的數字開始計數，用於\<ol\>標籤。| ***ex start="50" 從50開始***|
 |type|宣告表單元素，用於\<input\>標籤。 |button ***(一般按鈕)*** 、 submit ***(提交按鈕)*** 、image ***(圖片提交按鈕，需多加src屬性)*** 、 text ***(輸入文字)*** 、password ***(輸入密碼)*** 、checkbox ***(複選框)*** 、 radio ***(單選框)*** 、 file ***(文件上傳)*** 、 hidden ***(隱藏輸入，多用漁傳值)*** 、 reset ***(重置按鈕)*** 、 range ***(範圍)*** 、 date ***(日期)*** 、 time ***(時間)*** 、 [查看更多](https://www.w3schools.com/html/html_form_input_types.asp)|
@@ -94,7 +82,20 @@
 |target|開啟新頁面屬性。|_self ***(在當前窗口顯示，不冒出新頁面)*** 、_blank ***(在新窗口顯示，冒出新頁面)***|
 |method|提交表單使用的HTTP方法。|GET or POST [淺談GET與POST](https://blog.toright.com/posts/1203/%E6%B7%BA%E8%AB%87-http-method%EF%BC%9A%E8%A1%A8%E5%96%AE%E4%B8%AD%E7%9A%84-get-%E8%88%87-post-%E6%9C%89%E4%BB%80%E9%BA%BC%E5%B7%AE%E5%88%A5%EF%BC%9F.html)|
 
-
+#Style
+|屬性|中文|值|
+|padding|內間距|px rem ***ex padding:20px;***|
+|text-align|文字對齊|left(置左)、center(置中)、right(置右)|
+|list-style-type|列標標記樣式，用於\<ul\>標籤|disc ***(列標顯示 •)***、circle ***(列標顯示 。)*** 、square ***(列表顯示 ▪)*** 、none ***(無列表顯示))***|
+|color|顏色|color name 、 rgb 、 rgba 、 hsl [色碼表](https://www.ifreesite.com/color/)|
+|background-color|背景顏色|color name 、 rgb 、 rgba 、 hsl [色碼表](https://www.ifreesite.com/color/)|
+|background-image|背景圖片|url("圖片位址/連結") ***ex background-image: url("picture.png")***|
+|border|邊寬|邊寬寬度、邊寬樣式、邊寬顏色 ***ex border: 1px solid black;***|
+|border-color|邊寬顏色|all or top right bottom left or top&bottom left&right ***ex border-color:blue; or border-color:blue yellow;*** |
+|border-width|邊寬寬度|px rem ... ***ex border-width:3px;***|
+|border-spacing|邊框間距|px rem ... ***ex border-spacing: 5px;***|
+|border-style|邊寬樣式|solid、dotted... [其他更多](https://www.w3schools.com/css/css_border.asp)|
+|border-collapse|標格邊框合併|separate(預設值)、collapse(單一邊框)、inherit(繼承自父層的 border-collapse 屬性值) ***key 通常使用border-style實現***|
 
 
 
