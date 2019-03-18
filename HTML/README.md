@@ -89,7 +89,7 @@
 |start|指定的數字開始計數，用於\<ol\>標籤。| ***ex start="50" 從50開始***|
 |type|宣告表單元素，用於\<input\>標籤。 |button ***(一般按鈕)*** 、 submit ***(提交按鈕)*** 、image ***(圖片提交按鈕，需多加src屬性)*** 、 text ***(輸入文字)*** 、password ***(輸入密碼)*** 、checkbox ***(複選框)*** 、 radio ***(單選框)*** 、 file ***(文件上傳)*** 、 hidden ***(隱藏輸入，多用漁傳值)*** 、 reset ***(重置按鈕)*** 、 range ***(範圍)*** 、 date ***(日期)*** 、 time ***(時間)*** 、 [查看更多](https://www.w3schools.com/html/html_form_input_types.asp)|
 |name|宣告表單元素名稱，用於\<input\>標籤。 ***(tip 後端接收大多是依據name來判斷值)***|string|
-|value|宣告表單元素質，用於\<input\>標籤。 ***(tip 後端接收大多是依據name來接收value)***|strgin|
+|value|宣告表單元素質，用於\<input\>標籤。 ***(tip 後端接收大多是依據name來接收value)***|string|
 |placeholder|文字提示|string|
 |target|開啟新頁面屬性。|_self ***(在當前窗口顯示，不冒出新頁面)*** 、_blank ***(在新窗口顯示，冒出新頁面)***|
 |method|提交表單使用的HTTP方法。|GET or POST [淺談GET與POST](https://blog.toright.com/posts/1203/%E6%B7%BA%E8%AB%87-http-method%EF%BC%9A%E8%A1%A8%E5%96%AE%E4%B8%AD%E7%9A%84-get-%E8%88%87-post-%E6%9C%89%E4%BB%80%E9%BA%BC%E5%B7%AE%E5%88%A5%EF%BC%9F.html)|
