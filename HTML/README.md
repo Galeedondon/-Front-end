@@ -82,7 +82,7 @@
 |target|開啟新頁面屬性。|_self ***(在當前窗口顯示，不冒出新頁面)*** 、_blank ***(在新窗口顯示，冒出新頁面)***|
 |method|提交表單使用的HTTP方法。|GET or POST [淺談GET與POST](https://blog.toright.com/posts/1203/%E6%B7%BA%E8%AB%87-http-method%EF%BC%9A%E8%A1%A8%E5%96%AE%E4%B8%AD%E7%9A%84-get-%E8%88%87-post-%E6%9C%89%E4%BB%80%E9%BA%BC%E5%B7%AE%E5%88%A5%EF%BC%9F.html)|
 
-#Style
+# Style
 |屬性|中文|值|
 |padding|內間距|px rem ***ex padding:20px;***|
 |text-align|文字對齊|left(置左)、center(置中)、right(置右)|
