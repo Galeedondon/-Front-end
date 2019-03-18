@@ -51,10 +51,10 @@
 |\<video\>|影片，後跟 \<source src="影片" type="副檔名"\>|
 |\<audio\>|音效，後跟 \<source src="音樂" type="副檔名"\>|
 |\<abbr\>|首字母縮略詞。 ***tip 通常會使用title屬性與border來實現***|
-|\<article>\|獨立內容。 ***tip 通常會用/<div/>取代***|
+|\<article\>|獨立內容。 ***tip 通常會用/<div/>取代***|
 |\<code\>|短語標記。 ***tip 如想顯示程式碼可以用此標籤***|
 |\<details\>|指定用戶可以按需查看或隱藏的其他詳細信息。|
-|\<map\>|定義客戶端圖像映射。圖像映射是具有可點擊區域的圖像。[點我查看範例](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap)，[線上工具](https://www.image-map.net/)|
+|\<map\>|定義客戶端圖像映射。圖像映射是具有可點擊區域的圖像。[點我查看範例](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap)；[線上工具](https://www.image-map.net/)|
 |\<meter\>|量規。|
 |\<progress\>|任務的進度。|
 |\<nav\>|上方導覽列。|
@@ -66,8 +66,8 @@
 # HTML屬性概述
 |屬性|中文|值|
 |-----------|:-------------|:-------------|
-|id|定義標籤姓名(不可重複)||
-|class|定義標籤姓名(可重複)||
+|id|定義標籤姓名(不可重複)|text|
+|class|定義標籤姓名(可重複)|text|
 |width|寬度|px %(百分比) ... ***ex width:100%***|
 |height|長度|px %(百分比) ... ***ex height:100%***|
 |float|浮動|right(置右)、left(置左) ***ex float:left***|
@@ -88,7 +88,6 @@
 |type|定義列表項標記的類型|1 ***(從1開始以數列排序)*** 、A ***(從A開始以英文大寫字母排序)*** 、a***(從a開始以英文小寫字母排序)*** 、I ***(從大寫羅馬字母排序)*** 、i ***(從小寫羅馬字母排序)***|
 |start|指定的數字開始計數，用於\<ol\>標籤。| ***ex start="50" 從50開始***|
 |type|宣告表單元素，用於\<input\>標籤。 |button ***(一般按鈕)*** 、 submit ***(提交按鈕)*** 、image ***(圖片提交按鈕，需多加src屬性)*** 、 text ***(輸入文字)*** 、password ***(輸入密碼)*** 、checkbox ***(複選框)*** 、 radio ***(單選框)*** 、 file ***(文件上傳)*** 、 hidden ***(隱藏輸入，多用漁傳值)*** 、 reset ***(重置按鈕)*** 、 range ***(範圍)*** 、 date ***(日期)*** 、 time ***(時間)*** 、 [查看更多](https://www.w3schools.com/html/html_form_input_types.asp)|
-
 |name|宣告表單元素名稱，用於\<input\>標籤。 ***(tip 後端接收大多是依據name來判斷值)***|string|
 |value|宣告表單元素質，用於\<input\>標籤。 ***(tip 後端接收大多是依據name來接收value)***|strgin|
 |placeholder|文字提示|string|
