@@ -14,7 +14,7 @@
 |\<h6\>|標題(Heading)，大小為10px|
 |\<p\>|段落(paragraph)|
 |\<a\>|文字|
-|\<img\>>|圖片(image)，屬性 src="圖片網址"、alt="文字代替圖片"|
+|\<img\>|圖片(image)，屬性 src="圖片網址"、alt="文字代替圖片"|
 |\<button\>|按鈕|
 |\<ul\>|無序/項目符號列表，後跟\<li\> 標記（列表項）|
 |\<ol\>|有序/編號列表，後跟\<li\> 標記（列表項）|
@@ -73,7 +73,7 @@
 |float|浮動|right(置右)、left(置左) ***ex float:left***|
 |colspan|列合併，用於\<th\>、\<td\>標籤| ***ex colspan="2" 合併兩列***|
 |rowspan|行合併，用於\<th\>、\<td\>標籤| ***ex rowspan="2" 合併兩行***|
-|type|定義列表項標記的類型|1 ***(從1開始以數列排序)*** 、A ***(從A開始以英文大寫字母排序)*** 、a***(從a開始以英文小寫字母排序)*** 、I ***(從大寫羅馬字母排序)*** 、i ***(從小寫羅馬字母排序)***|
+|type|定義列表項標記的類型，用於<ol>標籤。|1 ***(從1開始以數列排序)*** 、A ***(從A開始以英文大寫字母排序)*** 、a***(從a開始以英文小寫字母排序)*** 、I ***(從大寫羅馬字母排序)*** 、i ***(從小寫羅馬字母排序)***|
 |start|指定的數字開始計數，用於\<ol\>標籤。| ***ex start="50" 從50開始***|
 |type|宣告表單元素，用於\<input\>標籤。 |button ***(一般按鈕)*** 、 submit ***(提交按鈕)*** 、image ***(圖片提交按鈕，需多加src屬性)*** 、 text ***(輸入文字)*** 、password ***(輸入密碼)*** 、checkbox ***(複選框)*** 、 radio ***(單選框)*** 、 file ***(文件上傳)*** 、 hidden ***(隱藏輸入，多用漁傳值)*** 、 reset ***(重置按鈕)*** 、 range ***(範圍)*** 、 date ***(日期)*** 、 time ***(時間)*** 、 [查看更多](https://www.w3schools.com/html/html_form_input_types.asp)|
 |name|宣告表單元素名稱，用於\<input\>標籤。 ***(tip 後端接收大多是依據name來判斷值)***|string|
@@ -86,8 +86,23 @@
 |屬性|中文|值|
 |-----------|:-------------|:-------------|
 |padding|內間距|px rem ***ex padding:20px;***|
+|padding-top|內間距(上)|px rem ***ex padding-top:20px;***|
+|padding-bottom|內間距(下)|px rem ***ex padding-bottom:20px;***|
+|padding-left|內間距(左)|px rem ***ex padding-left:20px;***|
+|padding-right|內間距(右)|px rem ***ex padding-right:20px;***|
+|margin|外間距|px rem ***ex padding:20px;***|
+|margin-top|外間距(上)|px rem ***ex padding-top:20px;***|
+|margin-bottom|外間距(下)|px rem ***ex padding-bottom:20px;***|
+|margin-left|外間距(左)|px rem ***ex padding-left:20px;***|
+|margin-right|外間距(右)|px rem ***ex padding-right:20px;***|
 |text-align|文字對齊|left(置左)、center(置中)、right(置右)|
+|font-family|字型|serif、Microsoft JhengHei ***ex font-family:Microsoft JhengHei;***|
+|font-weight|字體粗細|normal、bold、900 ***ex font-weight: 900;***|
+|font-size|字體大小|px rem ***ex font-size:20px;***|
+|font-style|字體樣式|normal(預設)、italic(傾斜字體)、oblique(傾斜字體)、initial(預設) ***ex font-style:normal;***|
+|letter-spacing|字間距|normal、px ***ex letter-spacing:normal;***|
 |list-style-type|列標標記樣式，用於\<ul\>標籤|disc ***(列標顯示 •)***、circle ***(列標顯示 。)*** 、square ***(列表顯示 ▪)*** 、none ***(無列表顯示))***|
+|float|浮動|none、left、right ***ex float:right;***|
 |color|顏色|color name 、 rgb 、 rgba 、 hsl [色碼表](https://www.ifreesite.com/color/)|
 |background-color|背景顏色|color name 、 rgb 、 rgba 、 hsl [色碼表](https://www.ifreesite.com/color/)|
 |background-image|背景圖片|url("圖片位址/連結") ***ex background-image: url("picture.png")***|
@@ -96,7 +111,7 @@
 |border-width|邊寬寬度|px rem ... ***ex border-width:3px;***|
 |border-spacing|邊框間距|px rem ... ***ex border-spacing: 5px;***|
 |border-style|邊寬樣式|solid、dotted... [其他更多](https://www.w3schools.com/css/css_border.asp)|
-|border-collapse|標格邊框合併|separate(預設值)、collapse(單一邊框)、inherit(繼承自父層的 border-collapse 屬性值) ***key 通常使用border-style實現***|
+|border-collapse|標格邊框合併|separate(預設值)、collapse(單一邊框)、inherit(繼承自父層的 border-collapse 屬性值) *** 通常使用border-style實現***|
 
 
 
