@@ -19,14 +19,20 @@
 > justify-content-start：靠左對齊 、 justify-content-center：置中對齊 、 justify-content-end：靠右對齊 、 justify-content-around：分散對齊(含左右) 、 justify-content-between：分散對齊(不含左右)。
 > ![avatar](http://i.imgur.com/ZPDggPx.png)  
 > ### No gutters  
-> 移除margin、padding。 ***ex /<div class/=/"row no-gutters/"/> /<//div/>***
+> 移除margin、padding。 ***ex \<div class\=\"row no-gutters\"\> \<\/div\>***
 > ![avatar](http://i.imgur.com/ClDKTyD.png)   
 > ### Column wrapping   
-> gird定義上把裝置布局分為十二等分，如果定義布局以col-9、col-4、col-6來佈局的話會分成兩列，因第一列9+4>12，故分為col-9為第一列，col-4、col-6第二列。   
+> gird定義上把裝置布局分為十二等分，如果定義布局以col-9、col-4、col-6來佈局的話會分成兩列，因第一列 9+4 > 12，故分為col-9為第一列，col-4、col-6第二列。   
 > ![avatar](http://i.imgur.com/FsFj8Mc.png)   
 > ### Column breaks   
-> 只需要在要段行的地方加入/<div class=/"w-100/"/>/<//div/>，因w-100定義上就是佔據螢幕百分之百寬度，也就是12格布局，所以不管前面布局多少都會進行換行。   
+> 只需要在要段行的地方加入\<div class=\"w-100\"\>\<\/div\>，因w-100定義上就是佔據螢幕百分之百寬度，也就是12格布局，所以不管前面布局多少都會進行換行。   
 > ![avatar](http://i.imgur.com/iUkALyx.png)   
 > ### 重新排序   
-> 使用.order-類來控制內容的可視順序(1~12、照數列排序)或是.order-first(第一)和.order-last(最後)。   
+> 使用.order-類來控制內容的可視順序(1~12、照數列排序)或是.order-first(第一)和.order-last(最後)。  
+> ![avatar](http://i.imgur.com/RmEHgfM.png)   
+> ### 偏移   
+> 使用.offset-md-*類將列向右移動。簡單來說.offset-md-3就是在md裝置下左邊預留三格布局。   
+> ![avatar](http://i.imgur.com/F3LUGXL.png)   
+
+
 
