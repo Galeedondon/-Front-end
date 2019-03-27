@@ -13,5 +13,11 @@
 > ![avatar](http://i.imgur.com/LzJ9wpx.png)    
 # 色加法&色減法   
 > 色加法(RGB)光的三原色，顏色越混合越亮所以稱為色加法。 [ex:三菱鏡折射](http://img.sj33.cn/uploads/allimg/200701/20070128012408305.jpg)   
-> 色減法(CMYK)前的CMY為顏料的三原色，顏色越混合越暗所以稱為色減法。 [ex:水彩混色] (https://i2.kknews.cc/SIG=391ipo2/ctp-vzntr/15288584566723qrqo6orr9.jpg)   
+> 色減法(CMYK)前的CMY為顏料的三原色，顏色越混合越暗所以稱為色減法。 [ex:水彩混色](https://i2.kknews.cc/SIG=391ipo2/ctp-vzntr/15288584566723qrqo6orr9.jpg)   
 > ![avatar](https://media.istockphoto.com/vectors/additive-and-subtractive-color-rgb-and-cmyk-vector-id1010232574)   
+# 項目符號   
+> ![avatar](https://images0.cnblogs.com/blog/347002/201412/220917529372044.png)   
+# Box Model   
+> ![avatar](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Css_box_model.svg/640px-Css_box_model.svg.png)   
+# 邊框樣式   
+> ![avatar](https://www.formget.com/wp-content/uploads/2014/09/border-style.png)   

@@ -106,7 +106,11 @@
 |font-size|字體大小|px rem ***ex font-size:20px;***|
 |font-style|字體樣式|normal(預設)、italic(傾斜字體)、oblique(傾斜字體)、initial(預設) ***ex font-style:normal;***|
 |font-stretch|文字延展|ultra-condensed、extra-condensed、condensed、semi-condensed、normal、semi-expanded、expanded、extra-expanded、ultra-expanded|
+|text-indent|首行縮排|px rem ***ex text-indent:20px;***|    
 |letter-spacing|字間距|normal、px ***ex letter-spacing:normal;***|
+|word-spacing|文字間距|normal、px ***ex word-spacing:normal;***|
+|text-shadow|文字陰影|px px px color ***ex text-shadow:5px 5px 10px blue;***|
+|line-height|設定行高|normal、px ***ex line-height:normal;***|
 |list-style-type|列標標記樣式，用於\<ul\>標籤|disc ***(列標顯示 •)***、circle ***(列標顯示 。)*** 、square ***(列表顯示 ▪)*** 、none ***(無列表顯示))***|
 |float|浮動|none、left、right ***ex float:right;***|
 |color|顏色|color name 、 rgb 、 rgba 、 hsl [色碼表](https://www.ifreesite.com/color/)|
