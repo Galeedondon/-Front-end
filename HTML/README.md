@@ -102,9 +102,10 @@
 |margin-right|外間距(右)|px rem ***ex padding-right:20px;***|
 |text-align|文字對齊|left(置左)、center(置中)、right(置右)|
 |font-family|字型|serif、Microsoft JhengHei ***ex font-family:Microsoft JhengHei;***|
-|font-weight|字體粗細|normal、bold、900 ***ex font-weight: 900;***|
+|font-weight|字體粗細|normal(普通)、bold(粗體、bolder(超粗體)、lighter(細體)、數字(100~900) ***ex font-weight: 900;***|
 |font-size|字體大小|px rem ***ex font-size:20px;***|
 |font-style|字體樣式|normal(預設)、italic(傾斜字體)、oblique(傾斜字體)、initial(預設) ***ex font-style:normal;***|
+|font-stretch|文字延展|ultra-condensed、extra-condensed、condensed、semi-condensed、normal、semi-expanded、expanded、extra-expanded、ultra-expanded|
 |letter-spacing|字間距|normal、px ***ex letter-spacing:normal;***|
 |list-style-type|列標標記樣式，用於\<ul\>標籤|disc ***(列標顯示 •)***、circle ***(列標顯示 。)*** 、square ***(列表顯示 ▪)*** 、none ***(無列表顯示))***|
 |float|浮動|none、left、right ***ex float:right;***|

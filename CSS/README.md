@@ -11,4 +11,7 @@
 # 屬性選擇器   
 > 屬性(attribute)選擇器屬於進階篩選，用來篩選標記裡的屬性。   
 > ![avatar](http://i.imgur.com/LzJ9wpx.png)    
->
+# 色加法&色減法   
+> 色加法(RGB)光的三原色，顏色越混合越亮所以稱為色加法。 [ex:三菱鏡折射](http://img.sj33.cn/uploads/allimg/200701/20070128012408305.jpg)   
+> 色減法(CMYK)前的CMY為顏料的三原色，顏色越混合越暗所以稱為色減法。 [ex:水彩混色] (https://i2.kknews.cc/SIG=391ipo2/ctp-vzntr/15288584566723qrqo6orr9.jpg)   
+> ![avatar](https://media.istockphoto.com/vectors/additive-and-subtractive-color-rgb-and-cmyk-vector-id1010232574)   
