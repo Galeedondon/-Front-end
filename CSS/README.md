@@ -21,3 +21,9 @@
 > ![avatar](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Css_box_model.svg/640px-Css_box_model.svg.png)   
 # 邊框樣式   
 > ![avatar](https://www.formget.com/wp-content/uploads/2014/09/border-style.png)   
+# 圖層
+> ![avatar](https://www.w3cplus.com/sites/default/files/blogs/2015/1512/z-index-2.png)   
+# deg角度
+> ![avatar](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/08/1504016089yellow-orange-conic-gradient.png)   
+
+

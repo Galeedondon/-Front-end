@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class 12</title>
+    <style>
+        .mix{
+            /* transform:matrix(1,1,-0.5,10,1,0); */
+            /* scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY() */
+
+            /* 往右移動100px 往下移動100px */
+            transform:translate(100px,100px);
+
+            /* 寬*2 長*2 */
+            transform:scale(2,2);
+            
+            /* 順時針旋轉90度 */
+            transform:rotate(90deg);
+
+            /* 沿者XY旋轉10度 */
+            transform:skew(10deg,10deg);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="mix" style="height: 20rem;width: 20rem;background-color:pink;">
+        text
+    </div>
+</body>
+
+</html>

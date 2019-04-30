@@ -113,6 +113,8 @@
 |line-height|設定行高|normal、px ***ex line-height:normal;***|
 |list-style-type|列標標記樣式，用於\<ul\>標籤|disc ***(列標顯示 •)***、circle ***(列標顯示 。)*** 、square ***(列表顯示 ▪)*** 、none ***(無列表顯示))***|
 |float|浮動|none、left、right ***ex float:right;***|
+|clear|清除浮動|both、left、right|
+|postion|定位|static(預設值)、fixed(固定定位)、relative(相對定位)、absolute(絕對定位)、sticky(黏性定位)|
 |color|顏色|color name 、 rgb 、 rgba 、 hsl [色碼表](https://www.ifreesite.com/color/)|
 |background-color|背景顏色|color name 、 rgb 、 rgba 、 hsl [色碼表](https://www.ifreesite.com/color/)|
 |background-image|背景圖片|url("圖片位址/連結") ***ex background-image: url("picture.png")***|
@@ -122,7 +124,9 @@
 |border-spacing|邊框間距|px rem ... ***ex border-spacing: 5px;***|
 |border-style|邊寬樣式|solid、dotted... [其他更多](https://www.w3schools.com/css/css_border.asp)|
 |border-collapse|標格邊框合併|separate(預設值)、collapse(單一邊框)、inherit(繼承自父層的 border-collapse 屬性值) *** 通常使用border-style實現***|
-
-
+|outline|外邊寬|邊寬寬度、邊寬樣式、邊寬顏色 ***ex outline: 1px solid black;***|
+|overflow|卷軸|visible(內容不管長寬都會顯示)、hidden(隱藏卷軸，超出範圍不顯示)、scroll(無論範圍多長都出現卷軸)、auto(依狀況決定是否顯示捲軸)|
+|overflow-x|左右卷軸|visible(內容不管長寬都會顯示)、hidden(隱藏卷軸，超出範圍不顯示)、scroll(無論範圍多長都出現卷軸)、auto(依狀況決定是否顯示捲軸)|
+|overflow-y|上下卷軸|visible(內容不管長寬都會顯示)、hidden(隱藏卷軸，超出範圍不顯示)、scroll(無論範圍多長都出現卷軸)、auto(依狀況決定是否顯示捲軸)|
 
 

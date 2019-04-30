@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>class 11</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+    <style>
+        .div {
+            background-image: url("https://cdn0-manfashion.techbang.com/system/images/3530/original/ef88d5a914a3d63100694c04f8584145.jpg?1371726627");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: table;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .div::after {
+            content: "";
+            height: 100vh;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            z-index: 10;
+            left: 0;
+        }
+
+        .div h1{
+            display: table-cell;
+            position: relative;
+            vertical-align: middle;
+            text-align: center;
+            z-index: 20;
+        }
+
+        .mydiv::before {
+            content: "我是 before";
+            color: red;
+        }
+
+        .mydiv::after {
+            content: "我是 after";
+            color: red;
+        }
+
+        .mydiv {}
+    </style>
+</head>
+
+<body>
+    <div class="mydiv">
+        我是DIV
+    </div>
+    <hr>
+    <div class="div">
+        <h1>
+            Some text.....
+        </h1>
+    </div>
+</body>
+
+</html>
