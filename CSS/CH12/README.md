@@ -23,11 +23,11 @@
 |skewX(angle)|定義沿著 X 軸的 2D 傾斜轉換。|[範例](http://www.w3school.com.cn/tiy/c.asp?f=css_transform_skewx)|
 |skewY(angle)|定義沿著 Y 軸的 2D 傾斜轉換。|[範例](http://www.w3school.com.cn/tiy/c.asp?f=css_transform_skewy)|
 
-#濾鏡特效   
+# 濾鏡特效   
 ![avatar](http://i.imgur.com/o1FVTQy.png)   
 >[範例](http://blog.shihshih.com/css-filter/)   
 
-#轉移特效 (Transition)
+# 轉移特效 (Transition)
 > transition-duration：指定轉移過程時間長度, 預設為 0 秒。   
 > transition-delay：指定轉移延遲多久才開始,  預設為  0  秒。   
 > transition-property：指定轉移的屬性, 預設為所有屬性。    
@@ -37,7 +37,7 @@
 >> ease-out: 同樣是先快後慢, 但變化速率與ease不同, 前段加速部份較 ease緩和    
 >> linear:以一致的速度變化    
 
-#動畫特效 (Animation)
+# 動畫特效 (Animation)
 > animation-duration：動畫播放的時間長度。
 > animation-delay：動畫延遲開始時間。 
 > animation-timing-function：指定動畫播放過程各階段的 快慢 (與transition設定相同) 。

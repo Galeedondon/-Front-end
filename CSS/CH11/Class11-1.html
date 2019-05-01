@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>class 11</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+    <style>
+        .mydiv::before {
+            content: "我是 before";
+            color: red;
+        }
+
+        .mydiv::after {
+            content: "我是 after";
+            color: red;
+        }
+
+        .word::after {
+            content:"， 網址屬性： " attr(href) "。";
+            color: red;
+        }
+
+        .word::before {
+            content:"連結屬性： " attr(target) "，";
+            color: green;
+        }
+
+        .imgdiv::before{
+            content:url("../img/popo.png") url("../img/popo.png") url("../img/popo.png");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mydiv">
+        我是DIV
+    </div>
+    <br>
+    <a class="word" target="_blank"  href="google.com.tw">hello</a>
+    <br>
+    <div class="imgdiv">
+
+    </div>
+</body>
+
+</html>
