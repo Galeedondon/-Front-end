@@ -4,12 +4,13 @@
 >> 僅設定上邊框樣式 border-top-style: 樣式
 >> 僅設定右邊框樣式 border-right-style: 樣式   
 >> 僅設定下邊框樣式 border-bottom-style: 樣式   
->> 僅設定左邊框樣式 border-left-style: 樣式   
-![avatar](https://blog-1252858782.cos.ap-beijing.myqcloud.com/CSSborder-style.png)   
+>> 僅設定左邊框樣式 border-left-style: 樣式    
+![avatar](https://blog-1252858782.cos.ap-beijing.myqcloud.com/CSSborder-style.png)      
+
 | 值 | 說明 |
-|:---|:-----|
+|---|-----|
 |none|無邊框|
-|hidden|與 "none" 相同。但多用於解決邊框衝突|
+|hidden|與 \"none\" 相同。但多用於解決邊框衝突|
 |dotted|點狀邊框|
 |dashed|虛線邊框|
 |solid|實線邊框|
